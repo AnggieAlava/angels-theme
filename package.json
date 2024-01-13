@@ -1,0 +1,21 @@
+{
+  "name": "angeles",
+  "displayName": "Angeles",
+  "description": "Theme Vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Angeles Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Angeles Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
