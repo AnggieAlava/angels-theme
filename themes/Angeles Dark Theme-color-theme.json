@@ -3,7 +3,7 @@
   "colors": {
     "editor.background": "#141313",
     "editor.foreground": "#fff0ee",
-    "activityBarBadge.background": "#349b04",
+    "activityBarBadge.background": "#131412",
     "sideBarTitle.foreground": "#bbbbbb"
   },
   "tokenColors": [
@@ -239,8 +239,7 @@
         "keyword.control.export.js.jsx"
       ],
       "settings": {
-        "foreground": "#6890ff",
-        "fontStyle": "bold"
+        "foreground": "#6890ff"
       }
     },
     {

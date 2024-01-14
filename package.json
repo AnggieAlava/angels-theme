@@ -1,8 +1,19 @@
 {
-  "name": "angeles",
-  "displayName": "Angeles",
+  "name": "angeles-dark-theme",
+  "displayName": "Angeles Dark Theme",
   "description": "Theme Vscode",
   "version": "0.0.1",
+  "publisher": "AngelesDarkTheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AngelesRocks/angels-theme"
+  },
+  "keywords": [
+    "theme",
+    "vscode",
+    "dark",
+    "dark theme"
+  ],
   "engines": {
     "vscode": "^1.85.0"
   },

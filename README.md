@@ -1,16 +1,26 @@
-# angeles README
+# README
 
-## Working with Markdown
+## This is the README for an extension VSCODE Dark Theme. "Angeles Dark Theme" is a dark theme for VSCode.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Installation
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- [Download the extension](https://marketplace.visualstudio.com/items?itemName=AngelesDarkTheme.angels-dark-theme)
+
+## Usage
+
+- [Open the extension](https://marketplace.visualstudio.com/items?itemName=AngelesDarkTheme.angels-dark-theme)
+
+## Configuration
+
+- [Open the extension](https://marketplace.visualstudio.com/items?itemName=AngelesDarkTheme.angels-dark-theme)
+
+## License
+
+- [License](https://github.com/AngelesRocks/angels-theme/blob/master/LICENSE)
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
