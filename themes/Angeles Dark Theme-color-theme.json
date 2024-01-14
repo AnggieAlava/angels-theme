@@ -1,9 +1,9 @@
 {
   "name": "Angeles Dark Theme",
   "colors": {
-    "editor.background": "#121414",
-    "editor.foreground": "#eeffff",
-    "activityBarBadge.background": "#007acc",
+    "editor.background": "#141313",
+    "editor.foreground": "#fff0ee",
+    "activityBarBadge.background": "#349b04",
     "sideBarTitle.foreground": "#bbbbbb"
   },
   "tokenColors": [
@@ -40,7 +40,14 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#00ffb3"
+      }
+    },
+    {
+      "name": "F String",
+      "scope": ["storage.type.string.python"],
+      "settings": {
+        "foreground": "#B56BCA"
       }
     },
     {
@@ -59,31 +66,67 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#0f740c"
+        "foreground": "#fffcfc"
       }
     },
     {
-      "scope": ["keyword.control"],
+      "scope": [
+        "keyword.control.flow.python",
+        "keyword.control.python",
+        "keyword.control.import.python"
+      ],
       "settings": {
-        "foreground": "#e8ff17"
+        "foreground": "#ffd500"
+      }
+    },
+    {
+      "scope": ["support.type.exception.python"],
+      "settings": {
+        "foreground": "#b56bca"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python"
+      ],
+      "settings": {
+        "foreground": "#288b09"
       }
     },
     {
       "scope": ["string"],
-
       "settings": {
-        "foreground": "#84da63"
+        "foreground": "#7bdb55"
+      }
+    },
+
+    {
+      "name": "Python",
+      "scope": ["meta.function-call.python", "source.python"],
+      "settings": {
+        "foreground": "#fafffb"
       }
     },
     {
-      "name": "Tag",
       "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
+        "keyword.operator.comparison.python",
+        "keyword.operator.logical.python",
+        "keyword.operator.arithmetic.python",
+        "keyword.operator.assignment.python",
+        "meta.function.parameters.python",
+        "keyword.operator.python",
+        "meta.function.parameters.python",
+        "meta.function.python"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ffd500"
+      }
+    },
+    {
+      "scope": ["string.quoted.docstring.multi.python"],
+      "settings": {
+        "foreground": "#d1d681"
       }
     },
     {
@@ -96,21 +139,21 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#07a9d1"
+        "foreground": "#00e1ff"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff5e00"
       }
     },
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#ff5e00"
       }
     },
     {
@@ -124,19 +167,19 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#ff396a"
+        "foreground": "#ff6986"
       }
     },
     {
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#e97c00"
+        "foreground": "#ff941a"
       }
     },
     {
       "scope": ["constant.language"],
       "settings": {
-        "foreground": "#f0362f"
+        "foreground": "#ff3a24"
       }
     },
     {
@@ -168,6 +211,119 @@
         "foreground": "#FFCB6B"
       }
     },
+    {
+      "name": "React",
+      "scope": [
+        "meta.definition.variable.js.jsx",
+        "meta.var-single-variable.expr.js.jsx",
+        "meta.var.expr.js.jsx",
+        "source.js.jsx,",
+        "variable.other.property.js.jsx",
+        "meta.var.expr.js.jsx",
+        "meta.object.member.js.jsx",
+        "meta.objectliteral.js.jsx",
+        "meta.array.literal.js.jsx",
+        "meta.var.expr.js.jsx",
+        "meta.block.js.jsx",
+        "meta.arrow.js.jsx",
+        "meta.var.expr.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#fab22d"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": [
+        "variable.other.object.js.jsx",
+        "keyword.control.export.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#6890ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": [
+        "support.variable.property.js.jsx",
+        "variable.other.property.js.jsx",
+        "keyword.control.flow.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#DD86FF"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": ["string.quoted.single.js.jsx", "meta.jsx.children.js.jsx"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": ["entity.name.tag.js.jsx", "string.quoted.double.js.jsx"],
+      "settings": {
+        "foreground": "#00ff80"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": [
+        "meta.object-literal.key.js.jsx",
+        "variable.other.readwrite.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#fbff00"
+      }
+    },
+    {
+      "name": "HTML",
+      "scope": ["variable.other.constant.js.jsx"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Import React",
+      "scope": ["keyword.control.import.js.jsx", "keyword.control.from.js.jsx"],
+      "settings": {
+        "foreground": "#f4f808"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": ["entity.name.function.js.jsx"],
+      "settings": {
+        "foreground": "#DD86FF"
+      }
+    },
+    {
+      "name": "Import and Export",
+      "scope": ["storage.type.js.jsx"],
+      "settings": {
+        "foreground": "#fc555d",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js.jsx",
+        "punctuation.definition.template-expression.end.js.jsx",
+        "meta.template.expression.js.jsx",
+        "string.template.js.jsx,",
+        "storage.type.function.js.jsx",
+        "meta.brace.round.js.jsx",
+        "punctuation.definition.string.template.begin.js.jsx",
+        "punctuation.definition.string.template.end.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#dd86ff"
+      }
+    },
+
     {
       "name": "Entity Types",
       "scope": ["support.type"],
@@ -223,7 +379,7 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#286cff"
+        "foreground": "#48bcff"
       }
     },
     {
