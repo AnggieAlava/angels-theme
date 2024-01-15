@@ -1,10 +1,11 @@
 {
   "name": "Angeles Dark Theme",
   "colors": {
-    "editor.background": "#141313",
-    "editor.foreground": "#fff0ee",
-    "activityBarBadge.background": "#131412",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "editor.background": "#1413134f",
+    "editor.foreground": "#fff0ee9f",
+    "activityBarBadge.background": "#e96099d5",
+    "tab.activeBorderTop": "#26a84698",
+    "statusBar.background": "#26a8467a"
   },
   "tokenColors": [
     {
@@ -40,7 +41,30 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#00ffb3"
+        "foreground": "#00ffb3cb"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": ["storage.type.function.python"],
+      "settings": {
+        "foreground": "#00ffb3cb",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Entity JavaScript",
+      "scope": ["entity.name.function.js"],
+      "settings": {
+        "foreground": "#34c274cb"
+      }
+    },
+    {
+      "name": "Storage Type JavaScript",
+      "scope": ["storage.type.function.js", "keyword.control.loop.js"],
+      "settings": {
+        "foreground": "#d8eb27b7",
+        "fontStyle": "bold"
       }
     },
     {
@@ -66,7 +90,26 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#fffcfc"
+        "foreground": "#fffcfcce"
+      }
+    },
+    {
+      "name": "JSON",
+      "scope": ["string.quoted.double.json"],
+      "settings": {
+        "foreground": "#51f0e894"
+      }
+    },
+    {
+      "name": "JSON",
+      "scope": [
+        "meta.structure.dictionary.json",
+        "meta.structure.dictionary.value.json",
+        "meta.structure.dictionary.json",
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#11f39594"
       }
     },
     {
@@ -76,7 +119,7 @@
         "keyword.control.import.python"
       ],
       "settings": {
-        "foreground": "#ffd500"
+        "foreground": "#ffd500dc"
       }
     },
     {
@@ -105,7 +148,7 @@
       "name": "Python",
       "scope": ["meta.function-call.python", "source.python"],
       "settings": {
-        "foreground": "#fafffb"
+        "foreground": "#cbd8cecc"
       }
     },
     {
@@ -120,7 +163,7 @@
         "meta.function.python"
       ],
       "settings": {
-        "foreground": "#ffd500"
+        "foreground": "#ffd500de"
       }
     },
     {
@@ -139,14 +182,72 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#00e1ff"
+        "foreground": "#00e1ffc9"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#ff5e00"
+        "foreground": "#00ffddc9"
+      }
+    },
+    {
+      "name": "Block Level Variables JavaScript",
+      "scope": "meta.definition.variable.js",
+      "settings": {
+        "foreground": "#0400ffc9"
+      }
+    },
+    {
+      "name": "Var Single Variable Expression",
+      "scope": "meta.var-single-variable.expr.js",
+      "settings": {
+        "foreground": "#ff00ddc9"
+      }
+    },
+    {
+      "name": "Var Expression",
+      "scope": "meta.var.expr.js",
+      "settings": {
+        "foreground": "#2dc200a9"
+      }
+    },
+    {
+      "name": "Block",
+      "scope": ["keyword.operator.relational.js"],
+      "settings": {
+        "foreground": "#fffb02da",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "meta.function.js",
+        "entity.name.function.js",
+        "meta.array.literal.js"
+      ],
+      "settings": {
+        "foreground": "#00ff6ac9"
+      }
+    },
+    {
+      "name": "Source",
+      "scope": [
+        "source.js",
+        "meta.var-single-variable.expr.js",
+        "variable.other.object.js"
+      ],
+      "settings": {
+        "foreground": "#f8629bd8"
+      }
+    },
+    {
+      "name": "Variables JavaSCript",
+      "scope": ["variable.other.readwrite.js"],
+      "settings": {
+        "foreground": "#ffffffab"
       }
     },
     {
@@ -173,7 +274,7 @@
     {
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#ff941a"
+        "foreground": "#ff941ae0"
       }
     },
     {
@@ -302,7 +403,15 @@
       "name": "Import and Export",
       "scope": ["storage.type.js.jsx"],
       "settings": {
-        "foreground": "#fc555d",
+        "foreground": "#55f1fc",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "js",
+      "scope": ["storage.type.js"],
+      "settings": {
+        "foreground": "#ff6987dc",
         "fontStyle": "bold"
       }
     },
@@ -491,7 +600,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#dac614d8"
       }
     },
     {
@@ -500,7 +609,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#2ecc3bcc"
       }
     },
     {
