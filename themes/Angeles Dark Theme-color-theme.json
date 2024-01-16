@@ -268,7 +268,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#ff6986"
+        "foreground": "#ff474dd3"
       }
     },
     {
@@ -340,7 +340,8 @@
         "keyword.control.export.js.jsx"
       ],
       "settings": {
-        "foreground": "#6890ff"
+        "foreground": "#00925a",
+        "fontStyle": "bold"
       }
     },
     {
@@ -351,21 +352,41 @@
         "keyword.control.flow.js.jsx"
       ],
       "settings": {
-        "foreground": "#DD86FF"
+        "foreground": "#fbff16cc"
       }
     },
     {
       "name": "JSX",
-      "scope": ["string.quoted.single.js.jsx", "meta.jsx.children.js.jsx"],
+      "scope": [
+        "string.quoted.single.js.jsx",
+        "meta.jsx.children.js.jsx",
+        "variable.other.readwrite.alias.js.jsx"
+      ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#ffc98a"
       }
     },
     {
       "name": "JSX",
-      "scope": ["entity.name.tag.js.jsx", "string.quoted.double.js.jsx"],
+      "scope": ["string.quoted.double.js.jsx"],
       "settings": {
-        "foreground": "#00ff80"
+        "foreground": "#e2e2e2cc"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": ["entity.name.tag.js.jsx"],
+      "settings": {
+        "foreground": "#ff7c9de3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSX",
+      "scope": ["keyword.operator.assignment.js.jsx"],
+      "settings": {
+        "foreground": "#fa4673ea",
+        "fontStyle": "bold"
       }
     },
     {
@@ -375,7 +396,7 @@
         "variable.other.readwrite.js.jsx"
       ],
       "settings": {
-        "foreground": "#fbff00"
+        "foreground": "#f5e507d7"
       }
     },
     {
@@ -396,14 +417,15 @@
       "name": "Entity",
       "scope": ["entity.name.function.js.jsx"],
       "settings": {
-        "foreground": "#DD86FF"
+        "foreground": "#fc46b0e5"
+        // "fontStyle": "bold"
       }
     },
     {
       "name": "Import and Export",
       "scope": ["storage.type.js.jsx"],
       "settings": {
-        "foreground": "#55f1fc",
+        "foreground": "#55f1fce0",
         "fontStyle": "bold"
       }
     },
@@ -428,7 +450,7 @@
         "punctuation.definition.string.template.end.js.jsx"
       ],
       "settings": {
-        "foreground": "#dd86ff"
+        "foreground": "#dd86ffbe"
       }
     },
 
@@ -494,7 +516,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#ffc88aee"
       }
     },
     {
