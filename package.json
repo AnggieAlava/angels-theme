@@ -28,5 +28,6 @@
         "path": "./themes/Angeles Dark Theme-color-theme.json"
       }
     ]
-  }
+  },
+  "icon": "./logo.png"
 }
