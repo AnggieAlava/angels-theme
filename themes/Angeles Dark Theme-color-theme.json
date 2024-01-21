@@ -157,13 +157,20 @@
         "keyword.operator.logical.python",
         "keyword.operator.arithmetic.python",
         "keyword.operator.assignment.python",
-        "meta.function.parameters.python",
         "keyword.operator.python",
         "meta.function.parameters.python",
         "meta.function.python"
       ],
       "settings": {
-        "foreground": "#ffd500de"
+        "foreground": "#188d14d3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["keyword.operator.assignment.python"],
+      "settings": {
+        "foreground": "#04d46cd3",
+        "fontStyle": "bold"
       }
     },
     {
@@ -274,7 +281,7 @@
     {
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#ff941ae0"
+        "foreground": "#d18514e0"
       }
     },
     {
