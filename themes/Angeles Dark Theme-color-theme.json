@@ -1,7 +1,7 @@
 {
   "name": "Angeles Dark Theme",
   "colors": {
-    "editor.background": "#161515",
+    "editor.background": "#1a1818be",
     "editor.foreground": "#ffffffa4",
     "activityBarBadge.background": "#be4779d5",
     "tab.activeBorderTop": "#26a84698",
@@ -13,7 +13,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#546E7A"
+        "foreground": "#677277"
       }
     },
     {
@@ -42,6 +42,20 @@
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
         "foreground": "#00ffb3cb"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword.operator.new.js"],
+      "settings": {
+        "foreground": "#1880e0dc"
+      }
+    },
+    {
+      "name": "JavaScript",
+      "scope": ["keyword.control.flow.js"],
+      "settings": {
+        "foreground": "#00E1FFC9"
       }
     },
     {
@@ -140,15 +154,29 @@
     {
       "scope": ["string"],
       "settings": {
-        "foreground": "#7bdb55"
+        "foreground": "#5aa76e"
       }
     },
 
     {
       "name": "Python",
-      "scope": ["meta.function-call.python", "source.python"],
+      "scope": ["source.python"],
       "settings": {
         "foreground": "#cbd8cecc"
+      }
+    },
+    {
+      "name": "Python",
+      "scope": ["meta.function-call.arguments.python"],
+      "settings": {
+        "foreground": "#eb75a6cc"
+      }
+    },
+    {
+      "name": "Python",
+      "scope": ["meta.function-call.generic.python"],
+      "settings": {
+        "foreground": "#1b7cd6cc"
       }
     },
     {
@@ -157,9 +185,7 @@
         "keyword.operator.logical.python",
         "keyword.operator.arithmetic.python",
         "keyword.operator.assignment.python",
-        "keyword.operator.python",
-        "meta.function.parameters.python",
-        "meta.function.python"
+        "keyword.operator.python"
       ],
       "settings": {
         "foreground": "#188d14d3",
@@ -183,7 +209,7 @@
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
-        "meta.function-call",
+        // "meta.function-call",
         "variable.function",
         "support.function",
         "keyword.other.special-method"
@@ -193,10 +219,17 @@
       }
     },
     {
+      "name": "Python",
+      "scope": ["entity.name.function.python"],
+      "settings": {
+        "foreground": "#4199eccc"
+      }
+    },
+    {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#00ffddc9"
+        "foreground": "#d0d6dbcc"
       }
     },
     {
@@ -222,7 +255,10 @@
     },
     {
       "name": "Block",
-      "scope": ["keyword.operator.relational.js"],
+      "scope": [
+        "keyword.operator.relational.js",
+        "keyword.operator.increment.js"
+      ],
       "settings": {
         "foreground": "#fffb02da",
         "fontStyle": "bold"
@@ -236,7 +272,7 @@
         "meta.array.literal.js"
       ],
       "settings": {
-        "foreground": "#00ff6ac9"
+        "foreground": "#5AA76E"
       }
     },
     {
@@ -247,14 +283,14 @@
         "variable.other.object.js"
       ],
       "settings": {
-        "foreground": "#f8629bd8"
+        "foreground": "#e44788ef"
       }
     },
     {
       "name": "Variables JavaSCript",
       "scope": ["variable.other.readwrite.js"],
       "settings": {
-        "foreground": "#ffffffab"
+        "foreground": "#e0dedbe0"
       }
     },
     {
@@ -275,19 +311,26 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#ff474dd3"
+        "foreground": "#9C4C6D"
+      }
+    },
+    {
+      "name": "Js",
+      "scope": ["variable.parameter.js", "meta.block variable.other.js"],
+      "settings": {
+        "foreground": "#e44788ec"
       }
     },
     {
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#d18514e0"
+        "foreground": "#ee9a1de0"
       }
     },
     {
       "scope": ["constant.language"],
       "settings": {
-        "foreground": "#ff3a24"
+        "foreground": "#ff3a24d3"
       }
     },
     {
@@ -455,8 +498,7 @@
       "name": "js",
       "scope": ["storage.type.js"],
       "settings": {
-        "foreground": "#ff6987dc",
-        "fontStyle": "bold"
+        "foreground": "#e44788"
       }
     },
     {
