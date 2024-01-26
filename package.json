@@ -1,8 +1,8 @@
 {
   "name": "angeles-dark-theme",
-  "displayName": "Angeles Dark Theme",
+  "displayName": "Angeles Dark",
   "description": "Theme Vscode",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "AngelesDarkTheme",
   "repository": {
     "type": "git",
@@ -23,9 +23,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Angeles Dark Theme",
+        "label": "Angeles Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Angeles Dark Theme-color-theme.json"
+        "path": "./themes/Angeles Dark-color-theme.json"
       }
     ]
   },
