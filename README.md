@@ -6,5 +6,13 @@
 
 - [Download the extension](https://marketplace.visualstudio.com/items?itemName=AngelesDarkTheme.angels-dark-theme)
 
+## Author
+
+- [AngelesRocks](https://github.com/AngelesRocks)
+- ![Angeles Dark Theme](./logo.png)
+
+## Preview
+
+![Angeles Dark Theme](./vscodetheme.png)
 
 **Enjoy!**
