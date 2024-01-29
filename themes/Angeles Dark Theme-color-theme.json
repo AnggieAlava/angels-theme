@@ -75,16 +75,23 @@
     },
     {
       "name": "Storage Type JavaScript",
-      "scope": ["storage.type.function.js", "keyword.control.loop.js"],
+      "scope": ["keyword.control.loop.js"],
       "settings": {
         "foreground": "#e660a3cb"
       }
     },
     {
       "name": "Storage Type JavaScript",
+      "scope": ["storage.modifier.async.js"],
+      "settings": {
+        "foreground": "#05E960DC"
+      }
+    },
+    {
+      "name": "Storage Type JavaScript",
       "scope": ["storage.type.function.js"],
       "settings": {
-        "foreground": "#e660a3cb",
+        "foreground": "#38f1f1cb",
         "fontStyle": "bold"
       }
     },
