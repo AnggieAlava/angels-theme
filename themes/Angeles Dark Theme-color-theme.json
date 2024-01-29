@@ -70,7 +70,7 @@
       "name": "Entity JavaScript",
       "scope": ["entity.name.function.js"],
       "settings": {
-        "foreground": "#f164a6cb"
+        "foreground": "#ef798bf3"
       }
     },
     {
@@ -299,7 +299,7 @@
       "name": "Function",
       "scope": ["meta.function.js"],
       "settings": {
-        "foreground": "#00FFB3CB"
+        "foreground": "#FFD670E5"
       }
     },
     {
@@ -357,6 +357,13 @@
       }
     },
     {
+      "name": "Js",
+      "scope": ["meta.function-call.js", "meta.block.js", "meta.arrow.js"],
+      "settings": {
+        "foreground": "#38F1F1CB"
+      }
+    },
+    {
       "scope": ["constant.numeric.dec.python"],
       "settings": {
         "foreground": "#f18a45fa"
@@ -376,7 +383,7 @@
         // "string.other.link"
       ],
       "settings": {
-        "foreground": "#ec5858fb"
+        "foreground": "#f34f4ffb"
       }
     },
     {
@@ -614,7 +621,7 @@
       "name": "js",
       "scope": ["storage.type.js"],
       "settings": {
-        "foreground": "#cf99eeb4"
+        "foreground": "#9f86c0"
       }
     },
     {
