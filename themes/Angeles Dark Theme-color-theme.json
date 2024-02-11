@@ -1,7 +1,7 @@
 {
   "name": "Angeles Dark Theme",
   "colors": {
-    "editor.background": "#1B1B1B",
+    "editor.background": "#252525",
     "editor.foreground": "#ffffffa4",
     "activityBarBadge.background": "#be4779d5",
     "tab.activeBorderTop": "#26a84698",
