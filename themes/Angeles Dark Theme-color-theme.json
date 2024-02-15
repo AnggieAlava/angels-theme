@@ -278,6 +278,20 @@
       }
     },
     {
+      "name": "Var Expression",
+      "scope": "keyword.operator.arithmetic.js",
+      "settings": {
+        "foreground": "#ffffffe5"
+      }
+    },
+    {
+      "name": "Var Expression",
+      "scope": "constant.numeric.decimal.js",
+      "settings": {
+        "foreground": "#4BF9FFE0"
+      }
+    },
+    {
       "name": "Block",
       "scope": [
         "keyword.operator.relational.js",
