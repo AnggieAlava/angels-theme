@@ -1,11 +1,16 @@
 {
   "name": "Angeles Dark Theme",
   "colors": {
-    "editor.background": "#252525",
+    "editor.background": "#272626",
+    "editor.findMatchHighlightBackground": "#ff000000",
+    "activityBar.activeBorder": "#da4f88d5",
+    "editor.selectionBackground": "#5be97f98",
+    "editor.selectionHighlightBackground": "#5be97f98",
+    "activityBarBadge.foreground": "#f3ebeb",
     "editor.foreground": "#ffffffa4",
-    "activityBarBadge.background": "#be4779d5",
-    "tab.activeBorderTop": "#26a84698",
-    "statusBar.background": "#26a8467a"
+    "activityBarBadge.background": "#c45a86d5",
+    "tab.activeBorderTop": "#da4f88d5",
+    "statusBar.background": "#325a3c98"
   },
   "tokenColors": [
     {
@@ -64,13 +69,6 @@
       "settings": {
         "foreground": "#00ffb3cb",
         "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Entity JavaScript",
-      "scope": ["entity.name.function.js"],
-      "settings": {
-        "foreground": "#fa83b1"
       }
     },
     {
@@ -588,6 +586,13 @@
       ],
       "settings": {
         "foreground": "#e0dedecb"
+      }
+    },
+    {
+      "name": "JS",
+      "scope": ["storage.type.function.arrow.js"],
+      "settings": {
+        "foreground": "#F7A072"
       }
     },
     {
