@@ -4,13 +4,12 @@
     "editor.background": "#272626",
     "editor.findMatchHighlightBackground": "#ff000000",
     "activityBar.activeBorder": "#da4f88d5",
-    "editor.selectionBackground": "#5be97f98",
-    "editor.selectionHighlightBackground": "#5be97f98",
+    "editor.selectionBackground": "#6f797298",
     "activityBarBadge.foreground": "#f3ebeb",
     "editor.foreground": "#ffffffa4",
     "activityBarBadge.background": "#c45a86d5",
     "tab.activeBorderTop": "#da4f88d5",
-    "statusBar.background": "#325a3c98"
+    "statusBar.background": "#07080798"
   },
   "tokenColors": [
     {
