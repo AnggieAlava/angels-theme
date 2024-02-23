@@ -2,11 +2,11 @@
   "name": "angeles-dark-theme",
   "displayName": "Angeles Dark Theme",
   "description": "Theme Vscode",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "publisher": "AngelesDarkTheme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AngelesRocks/angels-theme"
+    "url": "https://github.com/AnggieAlava/angels-theme"
   },
   "keywords": [
     "theme",

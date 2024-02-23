@@ -70,14 +70,21 @@
       "name": "Entity JavaScript",
       "scope": ["entity.name.function.js"],
       "settings": {
-        "foreground": "#ef798bf3"
+        "foreground": "#fa83b1"
       }
     },
     {
-      "name": "Storage Type JavaScript",
-      "scope": ["keyword.control.loop.js"],
+      "name": "Entity JavaScript",
+      "scope": ["entity.name.function.js"],
       "settings": {
-        "foreground": "#e660a3cb"
+        "foreground": "#fa83b1"
+      }
+    },
+    {
+      "name": "JavaScript",
+      "scope": ["keyword.other.js"],
+      "settings": {
+        "foreground": "#ff5d35e3"
       }
     },
     {
@@ -91,8 +98,8 @@
       "name": "Storage Type JavaScript",
       "scope": ["storage.type.function.js"],
       "settings": {
-        "foreground": "#38f1f1cb",
-        "fontStyle": "bold"
+        "foreground": "#38f1f1cb"
+        // "fontStyle": "bold"
       }
     },
     {
@@ -279,9 +286,16 @@
     },
     {
       "name": "Var Expression",
-      "scope": "keyword.operator.arithmetic.js",
+      "scope": [
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.comparison.js",
+        "keyword.operator.ternary.js",
+        "keyword.operator.relational.js",
+        "keyword.operator.increment.js",
+        "variable.other.object.js"
+      ],
       "settings": {
-        "foreground": "#ffffffe5"
+        "foreground": "#f7a072"
       }
     },
     {
@@ -289,17 +303,6 @@
       "scope": "constant.numeric.decimal.js",
       "settings": {
         "foreground": "#4BF9FFE0"
-      }
-    },
-    {
-      "name": "Block",
-      "scope": [
-        "keyword.operator.relational.js",
-        "keyword.operator.increment.js"
-      ],
-      "settings": {
-        "foreground": "#fffb02da",
-        "fontStyle": "bold"
       }
     },
     {
@@ -321,7 +324,6 @@
       "scope": [
         "source.js",
         "meta.var-single-variable.expr.js",
-        "variable.other.object.js",
         "string.quoted.double.js"
       ],
       "settings": {
@@ -635,7 +637,7 @@
       "name": "js",
       "scope": ["storage.type.js"],
       "settings": {
-        "foreground": "#9f86c0"
+        "foreground": "#db9eff"
       }
     },
     {
