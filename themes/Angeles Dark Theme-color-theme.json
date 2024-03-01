@@ -335,10 +335,18 @@
       }
     },
     {
-      "name": "Variables JavaSCript",
+      "name": "Variables JavaScript",
       "scope": ["variable.language.this.js", "variable.other.property.js"],
       "settings": {
         "foreground": "#4bf9ffe0"
+      }
+    },
+    {
+      "name": "Variables JavaScript",
+      "scope": ["variable.language.this.js"],
+      "settings": {
+        "foreground": "#f7763be0",
+        "fontStyle": "italic"
       }
     },
     {
