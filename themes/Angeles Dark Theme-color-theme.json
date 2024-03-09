@@ -331,7 +331,7 @@
       "name": "Python",
       "scope": ["variable.parameter.function.language.special.self.python"],
       "settings": {
-        "foreground": "#7ef845c9",
+        "foreground": "#0EA4B5",
         "fontStyle": "italic"
       }
     },
