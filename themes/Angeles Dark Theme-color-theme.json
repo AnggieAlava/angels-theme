@@ -136,6 +136,28 @@
       }
     },
     {
+      "name": "Brackets, Templates literal",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js"
+      ],
+      "settings": {
+        "foreground": "#7d7fff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Templates literal",
+      "scope": [
+        "punctuation.definition.string.template.begin.js",
+        "punctuation.definition.string.template.end.js"
+      ],
+      "settings": {
+        "foreground": "#ff0000",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "JSON",
       "scope": ["string.quoted.double.json"],
       "settings": {
@@ -321,7 +343,8 @@
       "scope": [
         "source.js",
         "meta.var-single-variable.expr.js",
-        "string.quoted.double.js"
+        "string.quoted.double.js",
+        "string.quoted.single.js"
       ],
       "settings": {
         "foreground": "#ffd670e5"
