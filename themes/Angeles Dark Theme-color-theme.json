@@ -232,13 +232,19 @@
     {
       "scope": [
         "keyword.operator.comparison.python",
-        "keyword.operator.logical.python",
         "keyword.operator.arithmetic.python",
         "keyword.operator.assignment.python",
         "keyword.operator.python"
       ],
       "settings": {
         "foreground": "#F9EA67",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["keyword.operator.logical.python"],
+      "settings": {
+        "foreground": "#f99d67",
         "fontStyle": "bold"
       }
     },

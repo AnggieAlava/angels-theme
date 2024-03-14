@@ -8,11 +8,11 @@
 
 ## Author
 
-- [AngelesRocks](https://github.com/AngelesRocks)
+- [AngelesRocks](https://github.com/AnggieAlava)
 - ![Angeles Dark Theme](./logo.png)
 
 ## Preview
 
 ![Angeles Dark Theme](./vscodetheme.png)
 
-**Enjoy!**
+### **Enjoy!**
