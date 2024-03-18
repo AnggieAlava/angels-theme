@@ -4,7 +4,7 @@
 
 ## Installation
 
-- [Download the extension](https://marketplace.visualstudio.com/items?itemName=AngelesDarkTheme.angels-dark-theme)
+- [Download the extension](https://marketplace.visualstudio.com/items?itemName=AngelesDarkTheme.angeles-dark-theme)
 
 ## Author
 
