@@ -1,5 +1,6 @@
 {
   "name": "Angeles Dark Theme",
+  "type": "dark",
   "colors": {
     "editor.background": "#272626",
     "editor.findMatchHighlightBackground": "#ff000000",
@@ -9,9 +10,22 @@
     "editor.foreground": "#ffffffa4",
     "activityBarBadge.background": "#c45a86d5",
     "tab.activeBorderTop": "#da4f88d5",
-    "statusBar.background": "#07080798"
+    "statusBar.background": "#07080798",
+    "sideBar.background": "#19191a", // Sidebar
+    "sideBar.border": "#13161f", // Linea divisora de sidebar y area de codigo
+    "sideBar.foreground": "#99a3b8", /// Color de fuente de todo el sidebar e iconos
+    "sideBarSectionHeader.background": "#0b0f13", // Encabezado de secciones del sidebar
+    "sideBarSectionHeader.foreground": "#99a3b8", // Titulo de secciones del siebar
+    "sideBarTitle.foreground": "#99a3b8" // Titulo de Explorador / Busqueda del sidebar
   },
   "tokenColors": [
+    {
+      "name": "Console log",
+      "scope": "support.class.promise.js",
+      "settings": {
+        "foreground": "#EA526EEF"
+      }
+    },
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
@@ -24,7 +38,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#eeffffef"
       }
     },
     {
@@ -316,11 +330,17 @@
         "keyword.operator.comparison.js",
         "keyword.operator.ternary.js",
         "keyword.operator.relational.js",
-        "keyword.operator.increment.js",
-        "variable.other.object.js"
+        "keyword.operator.increment.js"
       ],
       "settings": {
         "foreground": "#f7a072"
+      }
+    },
+    {
+      "name": "Var Expression",
+      "scope": ["variable.other.object.js"],
+      "settings": {
+        "foreground": "#1aa39c"
       }
     },
     {
@@ -335,6 +355,13 @@
       "scope": ["meta.array.literal.js"],
       "settings": {
         "foreground": "#2DC969"
+      }
+    },
+    {
+      "name": "Console",
+      "scope": ["variable.other.object.console"],
+      "settings": {
+        "foreground": "#8fff33"
       }
     },
     {
@@ -353,7 +380,7 @@
         "string.quoted.single.js"
       ],
       "settings": {
-        "foreground": "#ffd670e5"
+        "foreground": "#e6c67ee5"
       }
     },
     {
@@ -368,7 +395,7 @@
       "name": "Variables JavaSCript",
       "scope": ["variable.other.readwrite.js"],
       "settings": {
-        "foreground": "#e0dedbe0"
+        "foreground": "#eefffff1"
       }
     },
     {
@@ -409,7 +436,7 @@
     },
     {
       "name": "Js",
-      "scope": ["variable.parameter.js", "meta.block variable.other.js"],
+      "scope": ["meta.block variable.other.js"],
       "settings": {
         "foreground": "#ff8a5b"
       }
@@ -561,7 +588,7 @@
       "name": "JSX",
       "scope": ["variable.parameter.js"],
       "settings": {
-        "foreground": "#cacaca"
+        "foreground": "#EEFFFFEF"
       }
     },
     {
