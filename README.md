@@ -8,7 +8,7 @@
 
 ## Author
 
-- [AngelesRocks](https://github.com/AnggieAlava)
+- [AnggieAlava](https://github.com/AnggieAlava)
 - ![Angeles Dark Theme](./logo.png)
 
 ## Preview
