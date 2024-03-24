@@ -168,7 +168,7 @@
         "punctuation.definition.string.template.end.js"
       ],
       "settings": {
-        "foreground": "#ff0000",
+        "foreground": "#f8f8f8",
         "fontStyle": "bold"
       }
     },
@@ -304,10 +304,10 @@
       }
     },
     {
-      "name": "Block Level Variables JavaScript",
-      "scope": "meta.definition.variable.js",
+      "name": "Comments JavaScript",
+      "scope": ["comment.block.js", "punctuation.definition.comment.js"],
       "settings": {
-        "foreground": "#0400ffc9"
+        "foreground": "#2d6b4cea"
       }
     },
     {
