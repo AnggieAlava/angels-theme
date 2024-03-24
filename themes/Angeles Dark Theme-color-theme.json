@@ -1247,6 +1247,13 @@
       "settings": {
         "foreground": "#59cfece8"
       }
+    },
+    {
+      "name": "MongoDB",
+      "scope": ["keyword.other.$gt.mongodb"],
+      "settings": {
+        "foreground": "#ff623bf5"
+      }
     }
   ]
 }
