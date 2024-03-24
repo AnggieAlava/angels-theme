@@ -102,7 +102,8 @@
       "name": "Storage Type JavaScript",
       "scope": ["storage.modifier.async.js"],
       "settings": {
-        "foreground": "#05E960DC"
+        "foreground": "#05E960DC",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1250,9 +1251,20 @@
     },
     {
       "name": "MongoDB",
-      "scope": ["keyword.other.$gt.mongodb"],
+      "scope": [
+        "keyword.other.$gte.mongodb",
+        "keyword.other.$gt.mongodb",
+        "keyword.other.$lt.mongodb",
+        "keyword.other.$lte.mongodb",
+        "keyword.other.$in.mongodb",
+        "keyword.other.$nin.mongodb",
+        "keyword.other.$ne.mongodb",
+        "keyword.other.$eq.mongodb",
+        "keyword.other.$exists.mongodb"
+      ],
       "settings": {
-        "foreground": "#ff623bf5"
+        "foreground": "#b298faf5",
+        "fontStyle": "italic"
       }
     }
   ]
