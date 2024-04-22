@@ -450,7 +450,7 @@
       }
     },
     {
-      "scope": ["constant.numeric.dec.python"],
+      "scope": ["constant.numeric.dec.python", "constant.numeric.float.python"],
       "settings": {
         "foreground": "#f18a45fa"
       }
