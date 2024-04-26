@@ -232,6 +232,13 @@
     },
     {
       "name": "Python",
+      "scope": ["meta.item-access.arguments.python"],
+      "settings": {
+        "foreground": "#CF538F"
+      }
+    },
+    {
+      "name": "Python",
       "scope": ["meta.function-call.arguments.python"],
       "settings": {
         "foreground": "#0EA4B5"
