@@ -213,7 +213,13 @@
         "punctuation.definition.string.end.python"
       ],
       "settings": {
-        "foreground": "#f3f8f2"
+        "foreground": "#9E7F62B9"
+      }
+    },
+    {
+      "scope": ["string.quoted.docstring.multi.python"],
+      "settings": {
+        "foreground": "#9E7F62B9"
       }
     },
     {
@@ -227,7 +233,7 @@
       "name": "Python",
       "scope": ["source.python"],
       "settings": {
-        "foreground": "#DAE1DD"
+        "foreground": "#dae1dde8"
       }
     },
     {
@@ -280,7 +286,7 @@
     {
       "scope": ["string.quoted.docstring.multi.python"],
       "settings": {
-        "foreground": "#d1d681"
+        "foreground": "#9e7f62b9"
       }
     },
     {
